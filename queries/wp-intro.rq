@@ -10,11 +10,12 @@ SELECT ?extract WHERE {
                     mwapi:gapfrom ?title;
                     mwapi:gapto ?title;
                     mwapi:gaplimit 1;
-                    mwapi:prop "extracts".
+                    mwapi:prop "extracts";
+                    mwapi:exsentences "3".
     ?rawExtract wikibase:apiOutput "extract/text()".
     ?ns wikibase:apiOutput "@ns".
     ?pageid wikibase:apiOutput "@pageid". 
   }
   
-  BIND(REPLACE(STRBEFORE(?rawExtract, "</p>"), "<[^>]*>", "") AS ?extract)
+  BIND(CONCAT(REPLACE(STR(?rawExtract), "<[^>]*>", ""), ' [...]') AS ?extract)
 }
