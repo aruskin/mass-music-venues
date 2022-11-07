@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club Passim</title>
+     
+     <link rel="stylesheet" href="/style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     
     
     
-    <link rel="stylesheet" href="/bootstrap.min.css">
-    
-    
-    
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
 </head>
 <body class="d-flex flex-column h-100">
     <main class="flex-shrink-0 p-2">
@@ -25,32 +25,39 @@
     </div>
 </div>
 
-<dl class="row">
-    <dt class="col-sm-3">Opened</dt>
-    <dd class="col-sm-9">1958</dd>
-    <dt class="col-sm-3">Closed</dt>
-    <dd class="col-sm-9"></dd>
-    <dt class="col-sm-3">Street address</dt>
-    <dd class="col-sm-9"></dd>
-    <dt class="col-sm-3">Official website</dt>
-    <dd class="col-sm-9"><a href='https://www.passim.org/' target="_blank">https://www.passim.org/</a></dd>
-    <dt class="col-sm-3">Setlist.fm ID</dt>
-    <dd class="col-sm-9"><a href='https://www.setlist.fm/venue/wd-3bd630ac.html' target="_blank">3bd630ac</a></dd>
-    <dt class="col-sm-3">Songkick ID</dt>
-    <dd class="col-sm-9"><a href='https://www.songkick.com/venues/' target="_blank"></a></dd>
-</dl>
-
-
 <div class="row">
-    <div class="col-8">
-        
-        <p id="venue-wikipedia">
-</p>
-        <a id="venue-wikipedia-link" href="https://en.wikipedia.org/wiki/Club_Passim">Read more on Wikipedia</a>
+    <div class="col">
+        <dl class="row">
+        <dt class="col-sm-3">Opened</dt>
+        <dd class="col-sm-9">1958</dd>
+        <dt class="col-sm-3">Closed</dt>
+        <dd class="col-sm-9"></dd>
+        <dt class="col-sm-3">Street address</dt>
+        <dd class="col-sm-9"></dd>
+        <dt class="col-sm-3">Official website</dt>
+        <dd class="col-sm-9"><a href='https://www.passim.org/' target="_blank">https://www.passim.org/</a></dd>
+        <dt class="col-sm-3">Setlist.fm ID</dt>
+        <dd class="col-sm-9"><a href='https://www.setlist.fm/venue/wd-3bd630ac.html' target="_blank">3bd630ac</a></dd>
+        <dt class="col-sm-3">Songkick ID</dt>
+        <dd class="col-sm-9"><a href='https://www.songkick.com/venues/' target="_blank"></a></dd>
+    </dl>    
     </div>
     
-    <div class="col-4">
-        <img src="http://commons.wikimedia.org/wiki/Special:FilePath/Club%20Passim%2C%20Harvard%20Square%2C%20Cambridge%20MA.jpg" alt="Club Passim" class="img-fluid">
+    <div class="col">
+        <div class="card text-white bg-info">
+            <h5 class="card-header">From Wikipedia</h5>
+            
+            <img class="card-img-top" src="http://commons.wikimedia.org/wiki/Special:FilePath/Club%20Passim%2C%20Harvard%20Square%2C%20Cambridge%20MA.jpg" alt="Club Passim">
+            
+            <div class="card-body">
+                
+                <p id="venue-wikipedia">
+
+
+Club Passim is an American folk music club in the Harvard Square area of Cambridge, Massachusetts. It was opened by Joyce Kalina (now Chopra) and Paula Kelley in 1958, when it was known as Club 47 (based on its then address, 47 Mount Auburn Street, also in Cambridge; it moved to its present location on Palmer Street in 1963), and changed its name to simply Passim in 1969.  The Donlins who ran the club during the 1970s pronounced the name PASSim. [...]</p>
+                <a id="venue-wikipedia-link" href="https://en.wikipedia.org/wiki/Club_Passim" class="card-link">Read more on Wikipedia</a>
+            </div>
+        </div>
     </div>
     
 </div>
@@ -66,7 +73,16 @@
     </main>
     
     
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $('#venues-table').dataTable({
+            "pageLength": 50
+          });
+        });
+    </script>
 </body>
 </html>
 
