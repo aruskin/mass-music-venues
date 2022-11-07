@@ -1,0 +1,38 @@
+{{ template "base" . }}
+
+{{ define "title" }}Massachusetts Music Venues, Past and Present{{ end }}
+
+{{ define "content" }}
+<div class="row">
+    <div class="col">
+        <h1>Massachusetts Music Venues, Past and Present</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+    <table class="table table-sm" id="venues-table">
+        <thead>
+            <tr>
+                <th>Venue</th>
+                <th>Area</th>
+                <th>Opened</th>
+                <th>Closed</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>        
+            {{ range . }}
+            <tr>
+                <td><a href="./{{ .qid }}.html">{{ .musicVenueLabel }}</a></td>
+                <td>{{ .area }}</td>
+                <td>{{ .inceptionYear }}</td>
+                <td>{{ .dissolutionYear }}</td>
+                <td>{{ .streetAddress }}</td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+    </div>
+</div>
+
+{{ end }}

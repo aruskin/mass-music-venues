@@ -1,0 +1,46 @@
+{{ template "base" . }}
+{{ define "title" }}{{ .musicVenueLabel }}{{ end }}
+
+{{ define "content" }}
+<div class="row">
+    <div class="col">
+        <h1>{{ .musicVenueLabel }}</h1>
+    </div>
+</div>
+
+<dl class="row">
+    <dt class="col-sm-3">Opened</dt>
+    <dd class="col-sm-9">{{ .inceptionYear }}</dd>
+    <dt class="col-sm-3">Closed</dt>
+    <dd class="col-sm-9">{{ .dissolutionYear }}</dd>
+    <dt class="col-sm-3">Street address</dt>
+    <dd class="col-sm-9">{{ .streetAddress }}</dd>
+    <dt class="col-sm-3">Official website</dt>
+    <dd class="col-sm-9"><a href='{{ .officialWebsite}}' target="_blank">{{ .officialWebsite }}</a></dd>
+    <dt class="col-sm-3">Setlist.fm ID</dt>
+    <dd class="col-sm-9"><a href='https://www.setlist.fm/venue/wd-{{ .setlistID }}.html' target="_blank">{{ .setlistID }}</a></dd>
+    <dt class="col-sm-3">Songkick ID</dt>
+    <dd class="col-sm-9"><a href='https://www.songkick.com/venues/{{ .songkickID }}' target="_blank">{{ .songkickID }}</a></dd>
+</dl>
+
+{{ if .articleName.String }}
+<div class="row">
+    <div class="col-8">
+        {{ $wp_intro := query "wp-intro.rq" .articleName.String }}
+        <p id="venue-wikipedia">{{ range $wp_intro }}{{ .extract }}{{ end }}</p>
+        <a id="venue-wikipedia-link" href="{{ .article }}">Read more on Wikipedia</a>
+    </div>
+    {{ if .img }}
+    <div class="col-4">
+        <img src="{{ .img }}" alt="{{ .musicVenueLabel }}" class="img-fluid">
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+
+<div class="row">
+    <div class="col-6 mx-auto">
+        <a role="button" class="btn btn-primary" href='./venues.html'>Venue Index</a>
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,42 @@
+SELECT DISTINCT 
+?qid ?musicVenue ?musicVenueLabel ?setlistID ?songkickID ?articleName ?article
+(SAMPLE(?coords) AS ?coordinates)
+(SAMPLE(year(?inception)) as ?inceptionYear)
+(SAMPLE(year(?dissolution)) as ?dissolutionYear)
+(SAMPLE(?locationLabel) as ?area)
+(SAMPLE(?streetAddress) as ?streetAddress)
+(SAMPLE(?officialWebsite) as ?officialWebsite)
+(SAMPLE(?image) AS ?img)
+
+WHERE {
+    hint:Query hint:optimizer "None".
+
+    BIND("http://www.wikidata.org/entity/" AS ?baseURI).
+    ?musicVenue wdt:P131+ wd:Q771;
+                 wdt:P131 ?location.
+    BIND(REPLACE(STR(?musicVenue), ?baseURI, "") AS ?qid).
+    # Things that have instance of (some subclass of) music venue or 
+    # has use (some subclass of) music venue
+    {?musicVenue wdt:P31/wdt:P279* wd:Q8719053.}
+    UNION
+    {?musicVenue wdt:P366/wdt:P279* wd:Q8719053.}
+    OPTIONAL{?musicVenue wdt:P625 ?coords}
+    OPTIONAL{?musicVenue wdt:P6375 ?streetAddress}
+    OPTIONAL{?musicVenue wdt:P571 ?inception}
+    OPTIONAL{?musicVenue wdt:P576 ?dissolution}
+    OPTIONAL{?musicVenue wdt:P5432 ?setlistID}
+    OPTIONAL{?musicVenue wdt:P3977 ?songkickID}
+    OPTIONAL{?musicVenue wdt:P856 ?officialWebsite}
+    OPTIONAL{?musicVenue wdt:P18 ?image}
+    OPTIONAL{?article schema:about ?musicVenue ;
+               schema:inLanguage "en" ;
+               schema:isPartOf <https://en.wikipedia.org/> ;
+               schema:name ?articleName .
+    }
+    SERVICE wikibase:label { 
+        bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". 
+        ?location rdfs:label ?locationLabel.
+        ?musicVenue rdfs:label ?musicVenueLabel.}
+} 
+GROUP BY ?qid ?musicVenue ?musicVenueLabel ?setlistID ?songkickID ?articleName ?article
+ORDER BY ?musicVenueLabel

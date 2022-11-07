@@ -1,0 +1,10 @@
+views:
+  - output: "index.html"
+    query: "venues.rq"
+    template: "venue_index.html"
+  - output: "venues.html"
+    query: "venues.rq"
+    template: "venue_index.html"
+  - output: "{{qid}}.html"
+    query: "venues.rq"
+    template: "venue.html"
