@@ -8,3 +8,8 @@ views:
   - output: "{{qid}}.html"
     query: "venues.rq"
     template: "venue.html"
+  - output: "map.json"
+    query: "venues-with-coords.rq"
+    template: "pages/map.json"
+  - output: "map.html"
+    template: "map.html"

@@ -1,0 +1,11 @@
+[
+    {{ range $i, $m := $ }}
+    {{ if $i }},{{ end }}{
+        {{ $coords := split (index $m "loc") " " }}
+        "lat": {{ (index $coords 1) }},
+        "lon": {{ (index $coords 0) }},
+        "wikidata": "{{ (index $m "qid") }}",
+        "label": "{{ (index $m "musicVenueLabel") }}"
+    }
+    {{ end }}
+]

@@ -1,0 +1,22 @@
+SELECT DISTINCT 
+?qid ?musicVenue ?musicVenueLabel ?loc
+
+WHERE {
+    hint:Query hint:optimizer "None".
+
+    BIND("http://www.wikidata.org/entity/" AS ?baseURI).
+    ?musicVenue wdt:P131+ wd:Q771;
+                 wdt:P131 ?location;
+                 wdt:P625 ?coords.
+    BIND(REPLACE(STR(?musicVenue), ?baseURI, "") AS ?qid).
+    BIND(REPLACE(STR(?coords), "Point\\(|\\)", "") AS ?loc).
+    # Things that have instance of (some subclass of) music venue or 
+    # has use (some subclass of) music venue
+    {?musicVenue wdt:P31/wdt:P279* wd:Q8719053.}
+    UNION
+    {?musicVenue wdt:P366/wdt:P279* wd:Q8719053.}
+    SERVICE wikibase:label { 
+        bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". 
+        ?musicVenue rdfs:label ?musicVenueLabel.}
+} 
+ORDER BY ?qid
