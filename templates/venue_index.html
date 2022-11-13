@@ -6,6 +6,15 @@
 <div class="row">
     <div class="col">
         <h1>Massachusetts Music Venues, Past and Present</h1>
+        <p>
+            Note: all of the information here comes from <a href="https://www.wikidata.org/">Wikidata</a>, 
+            a crowdsourced knowledge base. If you look at a venue's page in Wikidata, you may be able to find out 
+            more about how this information was sourced, via the references associated with each statement.
+        </p>
+        <p>
+            In this table, a missing value for <strong>Closed</strong> may indicate that the venue is still open or
+            that its closure date is unknown/has not yet been added to Wikidata.
+        </p>
     </div>
 </div>
 <div class="row">
@@ -18,6 +27,7 @@
                 <th>Opened</th>
                 <th>Closed</th>
                 <th>Address</th>
+                <th>Wikidata item</th>
             </tr>
         </thead>
         <tbody>        
@@ -28,6 +38,7 @@
                 <td>{{ .inceptionYear }}</td>
                 <td>{{ .dissolutionYear }}</td>
                 <td>{{ .streetAddress }}</td>
+                <td><a href="http://www.wikidata.org/entity/{{ .qid }}">{{ .qid }}</a></td>
             </tr>
             {{ end }}
         </tbody>

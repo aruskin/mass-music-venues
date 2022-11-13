@@ -23,7 +23,8 @@
         <dd class="col-sm-9"><a href='https://www.setlist.fm/venue/wd-{{ .setlistID }}.html' target="_blank">{{ .setlistID }}</a></dd>
         <dt class="col-sm-3">Songkick ID</dt>
         <dd class="col-sm-9"><a href='https://www.songkick.com/venues/{{ .songkickID }}' target="_blank">{{ .songkickID }}</a></dd>
-    </dl>    
+    </dl> 
+    <p>Read more on <a href="http://www.wikidata.org/entity/{{ .qid }}">Wikidata</a></p>   
     </div>
     {{ if .articleName.String }}
     <div class="col">
