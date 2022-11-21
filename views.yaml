@@ -8,3 +8,5 @@ views:
   - output: "{{qid}}.html"
     query: "venues.rq"
     template: "venue.html"
+  - output: "links.html"
+    template: "links.html"
