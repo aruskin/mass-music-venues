@@ -17,7 +17,7 @@ h2 a {
 	text-decoration: none;
 }
 
-a:hover, a:active {
+a:active {
 	color: #00eeee;
 	text-decoration: underline;
 }
@@ -27,7 +27,7 @@ p a {
 	text-decoration: underline;
 }
 
-p a:hover {
+a:hover {
 	color: black;
 	background-color: #00ff00;
 	text-decoration: none;
@@ -82,7 +82,7 @@ input, select {
 }
 
 #venues-table_length, #venues-table_filter, #venues-table_info, #venues-table_paginate,
-#venues-table_previous, #venues-table_next {
+#venues-table_previous, #venues-table_next, #venues-table_paginate a {
     color: #00eeee !important; 
 }
 
