@@ -1,0 +1,88 @@
+/* A lot of this was taken/modified from the CSS for the lovely SCUL
+website: http://www.scul.org/skynet2.0/public/css/skynet.css. Will try
+to make it more my own once I get stuff working */
+
+body {
+   	background-color: #000000;
+	color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+	color: #00ee00;
+	border: 0px;
+}
+
+h2 a {
+	text-decoration: none;
+}
+
+a:active {
+	color: #00eeee;
+	text-decoration: underline;
+}
+
+p a {
+	color:#00ff00;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: black;
+	background-color: #00ff00;
+	text-decoration: none;
+}
+
+input, select {
+    color: #00eeee;
+}
+
+.listTable{
+	border-spacing: 0;
+    border-collapse: collapse;
+	width: 100%;
+}
+
+.listTable thead th {
+	background-color: #1f1f1f;
+	/* border: 1px solid #00eeee; */
+	font-size: 1.25em;
+	font-weight: bold;
+	color: #00ff00;
+	padding: 4px;
+}
+
+.listTable tbody td {
+	border: none;
+	color: #00ff00;
+	font-size: .9em;
+	padding: 5px 4px;
+	vertical-align: top;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.listTable tbody tr:nth-child(even){
+	background-color: #1f1f1f;
+}
+
+.listTable tbody tr:hover{
+	background-color: #494949;
+	cursor: pointer
+}
+
+.listTable tbody td a, .buttonRow a {
+	color: #00ee00;
+}
+
+.listTable tbody td a:hover, .listTable tbody td a:active, .buttonRow a:hover, .buttonRow a:active { 
+	background-color: #00eeee6b;
+	color: #00eeee;
+	text-decoration:underline;
+}
+
+#venues-table_length, #venues-table_filter, #venues-table_info, #venues-table_paginate,
+#venues-table_previous, #venues-table_next, #venues-table_paginate a {
+    color: #00eeee !important; 
+}
+
