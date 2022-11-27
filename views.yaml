@@ -13,3 +13,5 @@ views:
     template: "pages/map.json"
   - output: "map.html"
     template: "map.html"
+  - output: "links.html"
+    template: "links.html"

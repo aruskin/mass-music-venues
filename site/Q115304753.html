@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Once</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+    
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0 p-2">
+        <div class="container">
+            
+<div class="row">
+    <div class="col">
+        <h1>Once</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <dl class="row">
+        <dt class="col-sm-3">Opened</dt>
+        <dd class="col-sm-9">2016</dd>
+        <dt class="col-sm-3">Closed</dt>
+        <dd class="col-sm-9">2020</dd>
+        <dt class="col-sm-3">Street address</dt>
+        <dd class="col-sm-9">156 Highland Ave, Somerville, MA 02143</dd>
+        <dt class="col-sm-3">Official website</dt>
+        <dd class="col-sm-9"><a href='https://oncesomerville.com/' target="_blank">https://oncesomerville.com/</a></dd>
+        <dt class="col-sm-3">Setlist.fm ID</dt>
+        <dd class="col-sm-9"><a href='https://www.setlist.fm/venue/wd-33d5e445.html' target="_blank">33d5e445</a></dd>
+        <dt class="col-sm-3">Songkick ID</dt>
+        <dd class="col-sm-9"><a href='https://www.songkick.com/venues/3078734' target="_blank">3078734</a></dd>
+    </dl> 
+    <p>Read more on <a href="http://www.wikidata.org/entity/Q115304753">Wikidata</a></p>   
+    </div>
+    
+</div>
+
+
+<div class="row">
+    <div class="col-6 mx-auto">
+        <a role="button" class="btn btn-primary" href='./venues.html'>Venue Index</a>
+    </div>
+</div>
+
+        </div>
+    </main>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $('#venues-table').dataTable({
+            "pageLength": 50
+          });
+        });
+    </script>
+</body>
+</html>
+
+
+
