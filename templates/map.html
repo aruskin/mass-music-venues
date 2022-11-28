@@ -1,0 +1,30 @@
+{{ template "base" . }}
+
+{{ define "title" }}Massachusetts Music Venues - Map{{ end }}
+
+{{ define "css" }}
+<link rel="stylesheet" href="css/font.awesome.min.css" />
+
+<link rel="stylesheet" href="css/leaflet.css" />
+<link rel="stylesheet" href="css/MarkerCluster.css" />
+<link rel="stylesheet" href="css/leaflet.locate.min.css" />
+<link rel="stylesheet" href="css/map.css" />
+{{ end }}
+
+
+{{ define "main-classes" }}fill{{ end }}
+
+{{ define "content" }}
+<h1>Massachusetts Music Venues, Mapped</h1>
+<div id="leaflet"></div>
+<div class="hidden fill center-content" aria-hidden id="loading-screen">
+	<div class="loading"></div>
+</div>
+{{ end }}
+
+{{ define "javascript" }}
+<script src="js/leaflet.js"></script>
+<script src="js/leaflet.markercluster.js"></script>
+<script src="js/leaflet.locate.min.js"></script>
+<script src="js/map.js"></script>
+{{ end }}
