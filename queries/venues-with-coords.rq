@@ -1,6 +1,6 @@
-SELECT DISTINCT 
+SELECT 
 ?qid ?musicVenue ?musicVenueLabel ?loc
-
+(SAMPLE(?streetAddress) as ?streetAddress)
 WHERE {
     hint:Query hint:optimizer "None".
 
@@ -15,8 +15,10 @@ WHERE {
     {?musicVenue wdt:P31/wdt:P279* wd:Q8719053.}
     UNION
     {?musicVenue wdt:P366/wdt:P279* wd:Q8719053.}
+    OPTIONAL{?musicVenue wdt:P6375 ?streetAddress.}
     SERVICE wikibase:label { 
         bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". 
         ?musicVenue rdfs:label ?musicVenueLabel.}
 } 
+GROUP BY ?qid ?musicVenue ?musicVenueLabel ?loc
 ORDER BY ?qid

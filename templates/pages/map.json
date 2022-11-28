@@ -5,7 +5,8 @@
         "lat": {{ (index $coords 1) }},
         "lon": {{ (index $coords 0) }},
         "wikidata": "{{ (index $m "qid") }}",
-        "label": "{{ (index $m "musicVenueLabel") }}"
+        "label": "{{ (index $m "musicVenueLabel") }}",
+        "streetAddress": "{{ (index $m "streetAddress") }}"
     }
     {{ end }}
 ]

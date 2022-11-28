@@ -17,7 +17,9 @@ function renderMarkers() {
 
             var location = new L.LatLng(item.lat, item.lon, true);
             var marker = new L.Marker(location);
-            marker.bindPopup('<a href="' + item.wikidata + '.html">' + item.label + '</a>');
+            var popupHtml = '<h2><a href="' + item.wikidata + '.html">' + item.label + '</a></h2>'
+            popupHtml += '<p>' + item.streetAddress + '</p>'
+            marker.bindPopup(popupHtml);
             markers.addLayer(marker);
           }
           map.addLayer(markers);
