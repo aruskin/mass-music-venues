@@ -200,6 +200,24 @@
     
     ,{
         
+        "lat": 41.943998328,
+        "lon": -69.985155303,
+        "wikidata": "Q111823859",
+        "label": "Beachcomber",
+        "streetAddress": "1120 Cahoon Hollow Rd, Wellfleet, MA 02667"
+    }
+    
+    ,{
+        
+        "lat": 42.351200831,
+        "lon": -71.069931698,
+        "wikidata": "Q111823860",
+        "label": "Boston Park Plaza Hotel and Towers",
+        "streetAddress": "50 Park Plaza, Boston, MA 02116"
+    }
+    
+    ,{
+        
         "lat": 42.374259817,
         "lon": -71.100197665,
         "wikidata": "Q111823861",
@@ -218,11 +236,74 @@
     
     ,{
         
+        "lat": 42.34736494,
+        "lon": -71.095740643,
+        "wikidata": "Q111823863",
+        "label": "Citi",
+        "streetAddress": "15 Lansdowne St, Boston, MA 02215"
+    }
+    
+    ,{
+        
+        "lat": 42.387828159,
+        "lon": -71.118315411,
+        "wikidata": "Q111823865",
+        "label": "Club III",
+        "streetAddress": "808 Somerville Ave., Cambridge, MA 02140"
+    }
+    
+    ,{
+        
         "lat": 42.362335053,
         "lon": -71.081745595,
         "wikidata": "Q111823866",
         "label": "Club M",
         "streetAddress": "137 Main St, Cambridge, MA 02142"
+    }
+    
+    ,{
+        
+        "lat": 42.273465976,
+        "lon": -71.830887676,
+        "wikidata": "Q111823867",
+        "label": "Coffee Kingdom",
+        "streetAddress": "2 Richmond Ave, Worcester, MA 01602"
+    }
+    
+    ,{
+        
+        "lat": 42.345460108,
+        "lon": -71.081066987,
+        "wikidata": "Q111823869",
+        "label": "Colonnade Hotel",
+        "streetAddress": "120 Huntington Ave, Boston, MA 02116"
+    }
+    
+    ,{
+        
+        "lat": 42.36369851,
+        "lon": -71.061286043,
+        "wikidata": "Q111823870",
+        "label": "Commonwealth Brewing Company",
+        "streetAddress": "138 Portland St, Boston, MA 02114"
+    }
+    
+    ,{
+        
+        "lat": 42.349288017,
+        "lon": -71.079801517,
+        "wikidata": "Q111823871",
+        "label": "Diamond Jim&#39;s Piano Bar (Lenox Hotel)",
+        "streetAddress": "710 Boylston St., Boston, MA 02116"
+    }
+    
+    ,{
+        
+        "lat": 42.333155952,
+        "lon": -71.108029594,
+        "wikidata": "Q111823872",
+        "label": "Ed Burke&#39;s",
+        "streetAddress": "808 Huntington Ave, Boston, MA 02115"
     }
     
     ,{
@@ -236,6 +317,24 @@
     
     ,{
         
+        "lat": 42.352152563,
+        "lon": -71.068295258,
+        "wikidata": "Q111823874",
+        "label": "Four Seasons Hotel",
+        "streetAddress": "200 Boylston St, Boston, MA 02116"
+    }
+    
+    ,{
+        
+        "lat": 42.255953833,
+        "lon": -71.812040565,
+        "wikidata": "Q111823875",
+        "label": "Gilrein&#39;s",
+        "streetAddress": "802 Main St, Worcester, MA 01610"
+    }
+    
+    ,{
+        
         "lat": 42.310789719,
         "lon": -71.108042554,
         "wikidata": "Q111823876",
@@ -245,11 +344,65 @@
     
     ,{
         
+        "lat": 42.558120664,
+        "lon": -70.881343076,
+        "wikidata": "Q111823877",
+        "label": "Grover&#39;s",
+        "streetAddress": "392 Cabot St, Beverly, MA 01915"
+    }
+    
+    ,{
+        
+        "lat": 42.354066875,
+        "lon": -71.06222587,
+        "wikidata": "Q111823878",
+        "label": "Hub Club",
+        "streetAddress": "533 Washington St, Boston, MA 02111"
+    }
+    
+    ,{
+        
+        "lat": 42.403222912,
+        "lon": -71.126767533,
+        "wikidata": "Q111823879",
+        "label": "Jumbo&#39;s",
+        "streetAddress": "1133 Broadway, Somerville, MA 02144"
+    }
+    
+    ,{
+        
+        "lat": 42.353552844,
+        "lon": -71.060951309,
+        "wikidata": "Q111823880",
+        "label": "Lafayette Hotel",
+        "streetAddress": "1 Ave de Lafayette, Boston, MA 02111"
+    }
+    
+    ,{
+        
         "lat": 42.3675117,
         "lon": -71.02294505,
         "wikidata": "Q111823881",
         "label": "Logan Airport Hilton",
         "streetAddress": "One Hotel Dr, Boston, MA 02128"
+    }
+    
+    ,{
+        
+        "lat": 42.349727986,
+        "lon": -71.050441207,
+        "wikidata": "Q111823883",
+        "label": "Necco Place",
+        "streetAddress": "1 Necco St, Boston, MA 02210"
+    }
+    
+    ,{
+        
+        "lat": 42.474361156,
+        "lon": -70.957369956,
+        "wikidata": "Q111823884",
+        "label": "New World",
+        "streetAddress": "31 Stetson St, Lynn, MA 01904"
     }
     
     ,{
@@ -268,6 +421,15 @@
         "wikidata": "Q111823886",
         "label": "Old Vienna Kaffeehaus",
         "streetAddress": "22 South St, Westborough, MA 01581"
+    }
+    
+    ,{
+        
+        "lat": 42.341589256,
+        "lon": -71.122409049,
+        "wikidata": "Q111823887",
+        "label": "Papillon",
+        "streetAddress": "1353 Beacon St, Brookline, MA 02446"
     }
     
     ,{
@@ -776,6 +938,15 @@
     
     ,{
         
+        "lat": 42.347403455,
+        "lon": -71.095696701,
+        "wikidata": "Q115304144",
+        "label": "House of Blues",
+        "streetAddress": "15 Lansdowne St, Boston, MA 02215"
+    }
+    
+    ,{
+        
         "lat": 42.388298207,
         "lon": -71.103804839,
         "wikidata": "Q115304753",
@@ -808,6 +979,15 @@
         "wikidata": "Q115328484",
         "label": "Notch Brewery &amp; Tap Room",
         "streetAddress": "525 Western Ave, Brighton, MA 02135"
+    }
+    
+    ,{
+        
+        "lat": 42.395547518,
+        "lon": -71.121692657,
+        "wikidata": "Q115558989",
+        "label": "The Rockwell",
+        "streetAddress": "255 Elm St, Somerville, MA 02144"
     }
     
     ,{
@@ -996,7 +1176,7 @@
         "lon": -70.3204,
         "wikidata": "Q4861955",
         "label": "Barnstable High School Performing Arts Center",
-        "streetAddress": ""
+        "streetAddress": "744 W Main St, Hyannis, MA 02601"
     }
     
     ,{
@@ -1204,15 +1384,6 @@
         "wikidata": "Q7134354",
         "label": "Paradise Rock Club",
         "streetAddress": "967 Commonwealth Ave, Boston, MA 02215"
-    }
-    
-    ,{
-        
-        "lat": 42.3535,
-        "lon": -71.067,
-        "wikidata": "Q7138603",
-        "label": "Parkman Bandstand",
-        "streetAddress": "139 Tremont St, Boston, MA 02108"
     }
     
     ,{
