@@ -1,5 +1,5 @@
-SELECT DISTINCT 
-?qid ?musicVenue ?musicVenueLabel ?setlistID ?songkickID ?articleName ?article
+SELECT
+?qid ?musicVenue ?musicVenueLabel ?articleName ?article
 (SAMPLE(?coords) AS ?coordinates)
 (SAMPLE(year(?inception)) as ?inceptionYear)
 (SAMPLE(year(?dissolution)) as ?dissolutionYear)
@@ -7,6 +7,8 @@ SELECT DISTINCT
 (SAMPLE(?streetAddress) as ?streetAddress)
 (SAMPLE(?officialWebsite) as ?officialWebsite)
 (SAMPLE(?image) AS ?img)
+(GROUP_CONCAT(DISTINCT ?setlistLink; separator=", ") as ?setlistLinks)
+(GROUP_CONCAT(DISTINCT ?songkickLink; separator=", ") as ?songkickLinks)
 
 WHERE {
     hint:Query hint:optimizer "None".
@@ -24,8 +26,12 @@ WHERE {
     OPTIONAL{?musicVenue wdt:P6375 ?streetAddress}
     OPTIONAL{?musicVenue wdt:P571 ?inception}
     OPTIONAL{?musicVenue wdt:P576 ?dissolution}
-    OPTIONAL{?musicVenue wdt:P5432 ?setlistID}
-    OPTIONAL{?musicVenue wdt:P3977 ?songkickID}
+    OPTIONAL{?musicVenue wdt:P5432 ?setlistID.
+             BIND(CONCAT("<a href='https://www.setlist.fm/venue/wd-", STR(?setlistID), ".html'>", STR(?setlistID), "</a>") AS ?setlistLink).}
+    OPTIONAL{
+        ?musicVenue wdt:P3977 ?songkickID.
+        BIND(CONCAT("<a href='https://www.songkick.com/venues/", STR(?songkickID), "'>", STR(?songkickID), "</a>") AS ?songkickLink).
+    }
     OPTIONAL{?musicVenue wdt:P856 ?officialWebsite}
     OPTIONAL{?musicVenue wdt:P18 ?image}
     OPTIONAL{?article schema:about ?musicVenue ;
@@ -38,5 +44,5 @@ WHERE {
         ?location rdfs:label ?locationLabel.
         ?musicVenue rdfs:label ?musicVenueLabel.}
 } 
-GROUP BY ?qid ?musicVenue ?musicVenueLabel ?setlistID ?songkickID ?articleName ?article
+GROUP BY ?qid ?musicVenue ?musicVenueLabel ?articleName ?article
 ORDER BY ?musicVenueLabel
