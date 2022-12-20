@@ -1,6 +1,7 @@
 SELECT 
 ?qid ?musicVenue ?musicVenueLabel ?loc
 (SAMPLE(?streetAddress) as ?streetAddress)
+(SAMPLE(year(?dissolution)) as ?dissolutionYear)
 WHERE {
     hint:Query hint:optimizer "None".
 
@@ -16,6 +17,7 @@ WHERE {
     UNION
     {?musicVenue wdt:P366/wdt:P279* wd:Q8719053.}
     OPTIONAL{?musicVenue wdt:P6375 ?streetAddress.}
+    OPTIONAL{?musicVenue wdt:P576 ?dissolution}
     SERVICE wikibase:label { 
         bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". 
         ?musicVenue rdfs:label ?musicVenueLabel.}

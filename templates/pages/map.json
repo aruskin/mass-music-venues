@@ -6,7 +6,8 @@
         "lon": {{ (index $coords 0) }},
         "wikidata": "{{ (index $m "qid") }}",
         "label": "{{ (index $m "musicVenueLabel") }}",
-        "streetAddress": "{{ (index $m "streetAddress") }}"
+        "streetAddress": "{{ (index $m "streetAddress") }}",
+        "dissolutionYear": "{{ (index $m "dissolutionYear") }}"
     }
     {{ end }}
 ]

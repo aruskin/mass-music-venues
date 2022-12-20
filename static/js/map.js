@@ -17,7 +17,11 @@ function renderMarkers() {
 
             var location = new L.LatLng(item.lat, item.lon, true);
             var marker = new L.Marker(location);
-            var popupHtml = '<h2><a href="' + item.wikidata + '.html">' + item.label + '</a></h2>'
+            var popupHtml = '<h2><a href="' + item.wikidata + '.html">' + item.label
+            if (item.dissolutionYear) {
+              popupHtml += ' [CLOSED]'
+            }
+            popupHtml +=  '</a></h2>'
             popupHtml += '<p>' + item.streetAddress + '</p>'
             marker.bindPopup(popupHtml);
             markers.addLayer(marker);
