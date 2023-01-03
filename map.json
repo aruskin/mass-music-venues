@@ -1142,6 +1142,56 @@
     
     ,{
         
+        "lat": 42.380782479,
+        "lon": -71.097999831,
+        "wikidata": "Q115977835",
+        "label": "Sally O&#39;Briens",
+        "streetAddress": "335 Somerville Ave, Somerville, MA 02143",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.363696901,
+        "lon": -71.101584629,
+        "wikidata": "Q115977886",
+        "label": "Middle East Downstairs",
+        "streetAddress": "472 Massachusetts Ave, Cambridge, MA 02139",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.363696901,
+        "lon": -71.101584629,
+        "wikidata": "Q115977928",
+        "label": "Middle East Upstairs",
+        "streetAddress": "472 Massachusetts Ave, Cambridge, MA 02139",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.363778008,
+        "lon": -71.101445483,
+        "wikidata": "Q115977940",
+        "label": "ZuZu",
+        "streetAddress": "474 Massachusetts Ave, Cambridge, MA 02139",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.426664476,
+        "lon": -71.068566202,
+        "wikidata": "Q115977953",
+        "label": "Faces Brewing Co.",
+        "streetAddress": "50 Pleasant St, Malden, MA 02148",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
         "lat": 42.3525,
         "lon": -71.0626,
         "wikidata": "Q12067361",
@@ -1166,7 +1216,7 @@
         "lon": -71.1215,
         "wikidata": "Q14715437",
         "label": "Charlie&#39;s Kitchen",
-        "streetAddress": "",
+        "streetAddress": "10 Eliot St, Cambridge, MA 02138",
         "dissolutionYear": ""
     }
     
@@ -1207,6 +1257,26 @@
         "wikidata": "Q1528686",
         "label": "Tanglewood",
         "streetAddress": "",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.284,
+        "lon": -71.348,
+        "wikidata": "Q17060181",
+        "label": "The Center for Arts in Natick",
+        "streetAddress": "14 Summer St, Natick, MA 01760, USA",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.4149,
+        "lon": -71.1508,
+        "wikidata": "Q17066294",
+        "label": "Regent Theatre",
+        "streetAddress": "7 Medford Street, Arlington, MA 02474",
         "dissolutionYear": ""
     }
     
@@ -1677,6 +1747,16 @@
         "wikidata": "Q7963274",
         "label": "Wally&#39;s Cafe",
         "streetAddress": "427 Massachusetts Ave,Boston, MA 02118",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.3123,
+        "lon": -71.1135,
+        "wikidata": "Q7996005",
+        "label": "Whitehaus",
+        "streetAddress": "10 Seaverns Ave, Jamaica Plain, MA 02130",
         "dissolutionYear": ""
     }
     
