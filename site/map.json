@@ -257,7 +257,7 @@
         "wikidata": "Q111823862",
         "label": "Christopher&#39;s",
         "streetAddress": "1920 Massachusetts Ave, Cambridge, MA 02140",
-        "dissolutionYear": ""
+        "dissolutionYear": "2020"
     }
     
     ,{
@@ -507,7 +507,7 @@
         "wikidata": "Q111823888",
         "label": "Roxy",
         "streetAddress": "279 Tremont St, Boston, MA 02116",
-        "dissolutionYear": ""
+        "dissolutionYear": "2010"
     }
     
     ,{
@@ -547,7 +547,7 @@
         "wikidata": "Q111823893",
         "label": "The Averof",
         "streetAddress": "1924 Massachusetts Ave, Cambridge, MA 02140",
-        "dissolutionYear": ""
+        "dissolutionYear": "1998"
     }
     
     ,{
@@ -1087,7 +1087,7 @@
         "wikidata": "Q115305420",
         "label": "Opus Underground",
         "streetAddress": "87 Washington St, Salem, MA 01970",
-        "dissolutionYear": ""
+        "dissolutionYear": "2022"
     }
     
     ,{
@@ -1188,6 +1188,66 @@
         "label": "Faces Brewing Co.",
         "streetAddress": "50 Pleasant St, Malden, MA 02148",
         "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.353109673,
+        "lon": -71.134407232,
+        "wikidata": "Q116153493",
+        "label": "The Silhouette Lounge",
+        "streetAddress": "200 Brighton Ave, Allston, MA 02134",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.366069184,
+        "lon": -71.103313181,
+        "wikidata": "Q116355864",
+        "label": "ManRay",
+        "streetAddress": "40 Prospect Street, Cambridge, MA 02139",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.292128319,
+        "lon": -71.040807754,
+        "wikidata": "Q116811573",
+        "label": "Boston Harbor Distillery",
+        "streetAddress": "12R Ericsson St, Dorchester, MA 02122",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.381620003,
+        "lon": -71.100062425,
+        "wikidata": "Q116811643",
+        "label": "Jaspers",
+        "streetAddress": "379 Somerville Ave, Somerville, MA 02143",
+        "dissolutionYear": "1983"
+    }
+    
+    ,{
+        
+        "lat": 42.381620003,
+        "lon": -71.100062425,
+        "wikidata": "Q116811671",
+        "label": "Club Choices",
+        "streetAddress": "379 Somerville Ave, Somerville, MA 02143",
+        "dissolutionYear": "2011"
+    }
+    
+    ,{
+        
+        "lat": 42.381620003,
+        "lon": -71.100062425,
+        "wikidata": "Q116811696",
+        "label": "Radio Bar",
+        "streetAddress": "379 Somerville Ave, Somerville, MA 02143",
+        "dissolutionYear": "2013"
     }
     
     ,{
@@ -1406,7 +1466,7 @@
         "lon": -71.0369,
         "wikidata": "Q4856037",
         "label": "Leader Bank Pavilion",
-        "streetAddress": "",
+        "streetAddress": "290 Northern Ave, Boston, MA 02210",
         "dissolutionYear": ""
     }
     
