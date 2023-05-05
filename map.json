@@ -697,7 +697,7 @@
         "wikidata": "Q112661379",
         "label": "Atwood&#39;s Tavern",
         "streetAddress": "877 Cambridge St, Cambridge, MA, 02141",
-        "dissolutionYear": ""
+        "dissolutionYear": "2023"
     }
     
     ,{
@@ -1252,6 +1252,36 @@
     
     ,{
         
+        "lat": 42.364128157,
+        "lon": -71.102131152,
+        "wikidata": "Q116870123",
+        "label": "The Mad Monkfish",
+        "streetAddress": "524 Massachusetts Ave, Cambridge, MA 02139",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.38103603,
+        "lon": -71.09945464,
+        "wikidata": "Q117750073",
+        "label": "Bull McCabe&#39;s Pub",
+        "streetAddress": "366 Somerville Ave, Somerville, MA 02143",
+        "dissolutionYear": "2020"
+    }
+    
+    ,{
+        
+        "lat": 42.38011428,
+        "lon": -71.094410959,
+        "wikidata": "Q117750114",
+        "label": "Warehouse XI",
+        "streetAddress": "11 Sanborn Ct, Somerville, MA 02143",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
         "lat": 42.3525,
         "lon": -71.0626,
         "wikidata": "Q12067361",
@@ -1497,6 +1527,16 @@
         "wikidata": "Q4892165",
         "label": "Berklee Performance Center",
         "streetAddress": "136 Massachusetts Avenue, Boston, MA 02115",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.346388888,
+        "lon": -71.0975,
+        "wikidata": "Q49136",
+        "label": "Fenway Park",
+        "streetAddress": "",
         "dissolutionYear": ""
     }
     
@@ -1807,6 +1847,16 @@
         "wikidata": "Q7963274",
         "label": "Wally&#39;s Cafe",
         "streetAddress": "427 Massachusetts Ave,Boston, MA 02118",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.350278,
+        "lon": -71.065556,
+        "wikidata": "Q7967635",
+        "label": "Wang Theatre",
+        "streetAddress": "270 Tremont Street, Boston, MA 02116",
         "dissolutionYear": ""
     }
     
