@@ -2,7 +2,7 @@ function renderMarkers() {
   document.getElementById('loading-screen').style.display = 'block';
   var xhr = new XMLHttpRequest();
   map.getBounds();
-  xhr.open('GET', '/map.json'
+  xhr.open('GET', 'map.json'
   , true);
 
   xhr.onreadystatechange = function() {
