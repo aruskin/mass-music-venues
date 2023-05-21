@@ -1282,6 +1282,46 @@
     
     ,{
         
+        "lat": 42.366143845,
+        "lon": -71.090923948,
+        "wikidata": "Q118271189",
+        "label": "State Park Bar",
+        "streetAddress": "15 Hampshire St Building 300, Cambridge, MA 02139",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.365834671,
+        "lon": -71.082161783,
+        "wikidata": "Q118274092",
+        "label": "Sumiao Hunan Kitchen",
+        "streetAddress": "270 Third St, Cambridge, MA 02142",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.365046855,
+        "lon": -71.078628084,
+        "wikidata": "Q118274138",
+        "label": "Lily P&#39;s Fried Chicken and Oysters",
+        "streetAddress": "50 Binney St, Cambridge, MA 02142",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.417919402,
+        "lon": -71.110158326,
+        "wikidata": "Q118558314",
+        "label": "Deep Cuts",
+        "streetAddress": "21 Main St, Medford, MA 02155",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
         "lat": 42.3525,
         "lon": -71.0626,
         "wikidata": "Q12067361",
