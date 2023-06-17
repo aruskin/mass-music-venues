@@ -15,3 +15,7 @@ views:
     template: "map.html"
   - output: "links.html"
     template: "links.html"
+  - output: "posts.html"
+    template: "posts.html"
+  - output: "2023-06-17_atwoods.html"
+    template: "posts/2023-06-17_atwoods.html"
