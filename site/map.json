@@ -1322,6 +1322,46 @@
     
     ,{
         
+        "lat": 42.352833553,
+        "lon": -71.047193574,
+        "wikidata": "Q119660419",
+        "label": "Grace by Nia",
+        "streetAddress": "60 Seaport Blvd #325, Boston, MA 02210",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.263834053,
+        "lon": -71.810845965,
+        "wikidata": "Q119660687",
+        "label": "The Raven",
+        "streetAddress": "258 Pleasant St, Worcester, MA 01609",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.254272789,
+        "lon": -71.798191394,
+        "wikidata": "Q119661256",
+        "label": "Electric Haze",
+        "streetAddress": "26 Millbury St, Worcester, MA 01610",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.36226841,
+        "lon": -71.144743079,
+        "wikidata": "Q119661348",
+        "label": "Garage B",
+        "streetAddress": "1420 Soldiers Field Rd, Boston, MA 02135",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
         "lat": 42.3525,
         "lon": -71.0626,
         "wikidata": "Q12067361",
