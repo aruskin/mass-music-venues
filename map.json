@@ -1362,6 +1362,56 @@
     
     ,{
         
+        "lat": 42.394430865,
+        "lon": -70.997785089,
+        "wikidata": "Q119800101",
+        "label": "The Stage at Suffolk Downs",
+        "streetAddress": "525 William F McClellan Hwy, Boston, MA 02128",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.370817916,
+        "lon": -71.114540349,
+        "wikidata": "Q120122377",
+        "label": "Oberon",
+        "streetAddress": "2 Arrow St, Cambridge, MA 02138",
+        "dissolutionYear": "2021"
+    }
+    
+    ,{
+        
+        "lat": 42.405635725,
+        "lon": -71.065704516,
+        "wikidata": "Q120122416",
+        "label": "Bone Up Brewing Co.",
+        "streetAddress": "38 Norman St, Everett, MA 02149",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.34733472,
+        "lon": -71.094463917,
+        "wikidata": "Q120122457",
+        "label": "Loretta&#39;s Last Call",
+        "streetAddress": "1 Lansdowne St, Boston, MA 02215",
+        "dissolutionYear": ""
+    }
+    
+    ,{
+        
+        "lat": 42.372369558,
+        "lon": -71.116005595,
+        "wikidata": "Q120336680",
+        "label": "Hong Kong Harvard Square",
+        "streetAddress": "1238 Massachusetts Ave, Cambridge, MA 02138",
+        "dissolutionYear": "2021"
+    }
+    
+    ,{
+        
         "lat": 42.3525,
         "lon": -71.0626,
         "wikidata": "Q12067361",
@@ -1536,7 +1586,7 @@
         "lon": -71.085806,
         "wikidata": "Q3045309",
         "label": "Symphony Hall",
-        "streetAddress": "",
+        "streetAddress": "301 Massachusetts Ave, Boston, MA 02115",
         "dissolutionYear": ""
     }
     
