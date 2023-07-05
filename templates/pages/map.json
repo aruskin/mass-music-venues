@@ -7,7 +7,8 @@
         "wikidata": "{{ (index $m "qid") }}",
         "label": "{{ (index $m "musicVenueLabel") }}",
         "streetAddress": "{{ (index $m "streetAddress") }}",
-        "dissolutionYear": "{{ (index $m "dissolutionYear") }}"
+        "dissolutionYear": "{{ (index $m "dissolutionYear") }}",
+        "closureStatus": "{{ (index $m "closureStatus") }}"
     }
     {{ end }}
 ]
