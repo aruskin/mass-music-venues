@@ -4,7 +4,7 @@
 {{ define "content" }}
 <div class="row">
     <div class="col">
-        <h1>{{ .musicVenueLabel }}{{ if .dissolutionYear }} [CLOSED] {{ end }}</h1>
+        <h1>{{ .musicVenueLabel }}{{ if or ( .dissolutionYear ) ( .closureStatus ) }} [CLOSED] {{ end }}</h1>
     </div>
 </div>
 
