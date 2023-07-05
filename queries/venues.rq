@@ -9,7 +9,7 @@ SELECT
 (SAMPLE(?image) AS ?img)
 (GROUP_CONCAT(DISTINCT ?setlistLink; separator=", ") as ?setlistLinks)
 (GROUP_CONCAT(DISTINCT ?songkickLink; separator=", ") as ?songkickLinks)
-
+(SAMPLE(?stateOfUseLabel) AS ?closureStatus)
 WHERE {
     hint:Query hint:optimizer "None".
 
@@ -39,10 +39,15 @@ WHERE {
                schema:isPartOf <https://en.wikipedia.org/> ;
                schema:name ?articleName .
     }
+    OPTIONAL{
+        ?musicVenue wdt:P5817 ?stateOfUse.
+        FILTER(?stateOfUse = wd:Q104664889)
+    }
     SERVICE wikibase:label { 
         bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". 
         ?location rdfs:label ?locationLabel.
-        ?musicVenue rdfs:label ?musicVenueLabel.}
+        ?musicVenue rdfs:label ?musicVenueLabel.
+        ?stateOfUse rdfs:label ?stateOfUseLabel.}
 } 
 GROUP BY ?qid ?musicVenue ?musicVenueLabel ?articleName ?article
 ORDER BY ?musicVenueLabel

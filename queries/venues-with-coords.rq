@@ -2,6 +2,7 @@ SELECT
 ?qid ?musicVenue ?musicVenueLabel ?loc
 (SAMPLE(?streetAddress) as ?streetAddress)
 (SAMPLE(year(?dissolution)) as ?dissolutionYear)
+(SAMPLE(?stateOfUseLabel) AS ?closureStatus)
 WHERE {
     hint:Query hint:optimizer "None".
 
@@ -18,9 +19,14 @@ WHERE {
     {?musicVenue wdt:P366/wdt:P279* wd:Q8719053.}
     OPTIONAL{?musicVenue wdt:P6375 ?streetAddress.}
     OPTIONAL{?musicVenue wdt:P576 ?dissolution}
+    OPTIONAL{
+        ?musicVenue wdt:P5817 ?stateOfUse.
+        FILTER(?stateOfUse = wd:Q104664889)
+    }
     SERVICE wikibase:label { 
         bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". 
-        ?musicVenue rdfs:label ?musicVenueLabel.}
+        ?musicVenue rdfs:label ?musicVenueLabel.
+        ?stateOfUse rdfs:label ?stateOfUseLabel.}
 } 
 GROUP BY ?qid ?musicVenue ?musicVenueLabel ?loc
 ORDER BY ?qid
