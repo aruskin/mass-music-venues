@@ -7,8 +7,8 @@
         "wikidata": "Q105754756",
         "label": "Cantone&#39;s",
         "streetAddress": "69 Broad Street, Boston, MA 02109",
-        "dissolutionYear": "",
-        "closureStatus": ""
+        "dissolutionYear": "1983",
+        "closureStatus": "permanently closed"
     }
     
     ,{
@@ -74,7 +74,7 @@
         "label": "Dodge Street Bar &amp; Grill",
         "streetAddress": "7 Dodge Street Salem, MA 01970",
         "dissolutionYear": "2014",
-        "closureStatus": ""
+        "closureStatus": "permanently closed"
     }
     
     ,{
@@ -184,7 +184,7 @@
         "label": "Jumpin&#39; Jack Flash",
         "streetAddress": "88 Queensbury Street, Boston MA",
         "dissolutionYear": "",
-        "closureStatus": ""
+        "closureStatus": "permanently closed"
     }
     
     ,{
@@ -195,7 +195,7 @@
         "label": "Narcissus",
         "streetAddress": "533 Commonwealth Ave, Boston MA",
         "dissolutionYear": "",
-        "closureStatus": ""
+        "closureStatus": "permanently closed"
     }
     
     ,{
@@ -426,7 +426,7 @@
         "label": "Green Street Station",
         "streetAddress": "131 Green St, Jamaica Plain, MA 02130",
         "dissolutionYear": "",
-        "closureStatus": ""
+        "closureStatus": "permanently closed"
     }
     
     ,{
@@ -1085,8 +1085,8 @@
         "wikidata": "Q115174010",
         "label": "Toad",
         "streetAddress": "1912 Massachusetts Ave, Cambridge, MA 02140",
-        "dissolutionYear": "",
-        "closureStatus": ""
+        "dissolutionYear": "2023",
+        "closureStatus": "permanently closed"
     }
     
     ,{
@@ -1564,6 +1564,127 @@
     
     ,{
         
+        "lat": 42.356647,
+        "lon": -71.143932,
+        "wikidata": "Q121832142",
+        "label": "Roadrunner",
+        "streetAddress": "",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.401969819,
+        "lon": -71.124799017,
+        "wikidata": "Q127788496",
+        "label": "Somerville Music Spaces",
+        "streetAddress": "1060 Broadway C101B, Somerville, MA 02144",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.521313366,
+        "lon": -70.896288636,
+        "wikidata": "Q127869147",
+        "label": "Gulu-Gulu Cafe",
+        "streetAddress": "247 Essex St, Salem, MA 01970",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.522022704,
+        "lon": -70.895927889,
+        "wikidata": "Q127869178",
+        "label": "Koto Asian Fusion",
+        "streetAddress": "90 Washington St, Salem, MA 01970",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.522056169,
+        "lon": -70.88578491,
+        "wikidata": "Q127869201",
+        "label": "Mercy Tavern",
+        "streetAddress": "148 Derby St, Salem, MA 01970",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.644580561,
+        "lon": -71.310441973,
+        "wikidata": "Q128023466",
+        "label": "Thirsty First (Market Street)",
+        "streetAddress": "103 Market St, Lowell, MA 01852",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.641759502,
+        "lon": -71.308013865,
+        "wikidata": "Q128023978",
+        "label": "Thirsty First (Central Street)",
+        "streetAddress": "280 Central St, Lowell, MA 01852",
+        "dissolutionYear": "2022",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.640012122,
+        "lon": -71.319046343,
+        "wikidata": "Q128024181",
+        "label": "Taffeta Music Hall",
+        "streetAddress": "110 Western Ave, Lowell, MA 01851",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.645658074,
+        "lon": -71.314155513,
+        "wikidata": "Q128025149",
+        "label": "The Worthen Attic",
+        "streetAddress": "141 Worthen St, Lowell, MA 01852",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.641218125,
+        "lon": -71.312717701,
+        "wikidata": "Q128025823",
+        "label": "The Overlook",
+        "streetAddress": "250 Jackson St, Lowell, MA 01852",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.644580561,
+        "lon": -71.310441973,
+        "wikidata": "Q128026189",
+        "label": "UnchARTed Gallery",
+        "streetAddress": "103 Market St, Lowell, MA 01852",
+        "dissolutionYear": "2019",
+        "closureStatus": "permanently closed"
+    }
+    
+    ,{
+        
         "lat": 42.3562,
         "lon": -71.0608,
         "wikidata": "Q14715412",
@@ -2026,6 +2147,17 @@
     
     ,{
         
+        "lat": 42.265775,
+        "lon": -71.801953,
+        "wikidata": "Q6804590",
+        "label": "Mechanics Hall",
+        "streetAddress": "",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
         "lat": 42.3543,
         "lon": -71.0623,
         "wikidata": "Q6813287",
@@ -2064,6 +2196,17 @@
         "wikidata": "Q7134354",
         "label": "Paradise Rock Club",
         "streetAddress": "967 Commonwealth Ave, Boston, MA 02215",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.3535,
+        "lon": -71.067,
+        "wikidata": "Q7138603",
+        "label": "Parkman Bandstand",
+        "streetAddress": "139 Tremont St, Boston, MA 02108",
         "dissolutionYear": "",
         "closureStatus": ""
     }
@@ -2119,7 +2262,7 @@
         "wikidata": "Q7719463",
         "label": "Boston Theatre",
         "streetAddress": "539 Washington Street, Boston, MA",
-        "dissolutionYear": "",
+        "dissolutionYear": "1925",
         "closureStatus": "permanently closed"
     }
     
@@ -2173,7 +2316,7 @@
         "lon": -71.0822,
         "wikidata": "Q7963274",
         "label": "Wally&#39;s Cafe",
-        "streetAddress": "427 Massachusetts Ave,Boston, MA 02118",
+        "streetAddress": "427 Massachusetts Ave, Boston, MA 02118",
         "dissolutionYear": "",
         "closureStatus": ""
     }
