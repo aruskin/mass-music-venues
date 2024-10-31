@@ -149,7 +149,7 @@
         "lon": -71.131150857,
         "wikidata": "Q106930351",
         "label": "Local 186",
-        "streetAddress": "186 Harvard Avenue",
+        "streetAddress": "186 Harvard Avenue, Allston, MA 02134",
         "dissolutionYear": "1995",
         "closureStatus": ""
     }
@@ -173,7 +173,7 @@
         "label": "McGann&#39;s Irish Pub",
         "streetAddress": "197 Portland Street Boston, MA 02215",
         "dissolutionYear": "",
-        "closureStatus": ""
+        "closureStatus": "permanently closed"
     }
     
     ,{
@@ -182,7 +182,7 @@
         "lon": -71.1012544,
         "wikidata": "Q106940802",
         "label": "Jumpin&#39; Jack Flash",
-        "streetAddress": "88 Queensbury Street, Boston MA",
+        "streetAddress": "88 Queensberry Street, Boston MA",
         "dissolutionYear": "",
         "closureStatus": "permanently closed"
     }
@@ -204,7 +204,7 @@
         "lon": -71.1351049,
         "wikidata": "Q106940841",
         "label": "O&#39;Brien&#39;s Pub",
-        "streetAddress": "3 Harvard Avenue, Allston MA",
+        "streetAddress": "3 Harvard Avenue, Allston MA 02134",
         "dissolutionYear": "",
         "closureStatus": ""
     }
@@ -310,13 +310,13 @@
     
     ,{
         
-        "lat": 42.387828159,
-        "lon": -71.118315411,
+        "lat": 42.383769441,
+        "lon": -71.109505582,
         "wikidata": "Q111823865",
         "label": "Club III",
-        "streetAddress": "808 Somerville Ave., Cambridge, MA 02140",
-        "dissolutionYear": "",
-        "closureStatus": ""
+        "streetAddress": "608 Somerville Ave, Somerville, MA 02143",
+        "dissolutionYear": "2000",
+        "closureStatus": "permanently closed"
     }
     
     ,{
@@ -425,7 +425,7 @@
         "wikidata": "Q111823876",
         "label": "Green Street Station",
         "streetAddress": "131 Green St, Jamaica Plain, MA 02130",
-        "dissolutionYear": "",
+        "dissolutionYear": "1990",
         "closureStatus": "permanently closed"
     }
     
@@ -502,7 +502,7 @@
         "wikidata": "Q111823883",
         "label": "Necco Place",
         "streetAddress": "1 Necco St, Boston, MA 02210",
-        "dissolutionYear": "",
+        "dissolutionYear": "1991",
         "closureStatus": "permanently closed"
     }
     
@@ -579,7 +579,7 @@
         "wikidata": "Q111823890",
         "label": "Sir Morgan&#39;s Cove",
         "streetAddress": "89 Green St, Worcester, MA 01604",
-        "dissolutionYear": "1999",
+        "dissolutionYear": "2018",
         "closureStatus": ""
     }
     
@@ -962,7 +962,7 @@
         "lat": 42.378393699,
         "lon": -71.106836294,
         "wikidata": "Q113453839",
-        "label": "Club Bohemia at the Kirkland Cafe",
+        "label": "Kirkland Cafe",
         "streetAddress": "425 Washington St, Cambridge, MA 02138",
         "dissolutionYear": "2007",
         "closureStatus": ""
@@ -1206,7 +1206,7 @@
         "wikidata": "Q115305543",
         "label": "The Porch",
         "streetAddress": "175 Rivers Edge Dr, Medford, MA 02155",
-        "dissolutionYear": "",
+        "dissolutionYear": "2024",
         "closureStatus": ""
     }
     
@@ -1564,17 +1564,6 @@
     
     ,{
         
-        "lat": 42.356647,
-        "lon": -71.143932,
-        "wikidata": "Q121832142",
-        "label": "Roadrunner",
-        "streetAddress": "",
-        "dissolutionYear": "",
-        "closureStatus": ""
-    }
-    
-    ,{
-        
         "lat": 42.401969819,
         "lon": -71.124799017,
         "wikidata": "Q127788496",
@@ -1681,6 +1670,424 @@
         "streetAddress": "103 Market St, Lowell, MA 01852",
         "dissolutionYear": "2019",
         "closureStatus": "permanently closed"
+    }
+    
+    ,{
+        
+        "lat": 42.350976127,
+        "lon": -71.131048689,
+        "wikidata": "Q128796667",
+        "label": "Wonder Bar",
+        "streetAddress": "186 Harvard Ave, Allston, MA 02134",
+        "dissolutionYear": "2020",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.383769444,
+        "lon": -71.109505583,
+        "wikidata": "Q130379821",
+        "label": "608",
+        "streetAddress": "608 Somerville Avenue, Somerville, MA, US 02143",
+        "dissolutionYear": "2002",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.383769438,
+        "lon": -71.10950558,
+        "wikidata": "Q130379830",
+        "label": "Lilli&#39;s",
+        "streetAddress": "608 Somerville Avenue, Somerville MA 02143",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.34465,
+        "lon": -71.0963,
+        "wikidata": "Q130379843",
+        "label": "1270 Club",
+        "streetAddress": "1270 Boylston Street, Boston MA 02215",
+        "dissolutionYear": "1988",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.34246,
+        "lon": -71.06468,
+        "wikidata": "Q130379854",
+        "label": "Star Systems",
+        "streetAddress": "24 Thayer Street, Boston MA 02118",
+        "dissolutionYear": "1990",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.32965,
+        "lon": -71.193238888,
+        "wikidata": "Q130404618",
+        "label": "Attic Bar",
+        "streetAddress": "107R Union Street, Newton Centre, MA 02459",
+        "dissolutionYear": "2023",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.19333,
+        "lon": -71.20041,
+        "wikidata": "Q130406099",
+        "label": "Lewis&#39; Restaurant &amp; Grill",
+        "streetAddress": "92 Central St, Norwood, MA 02062",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.27587,
+        "lon": -71.00814,
+        "wikidata": "Q130409194",
+        "label": "The Beachcomber",
+        "streetAddress": "797 Quincy Shore Dr, Quincy, MA 02170",
+        "dissolutionYear": "2021",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.36401,
+        "lon": -71.10195,
+        "wikidata": "Q130409829",
+        "label": "Phoenix Landing",
+        "streetAddress": "512 Massachusetts Ave, Cambridge, Massachusetts 02139",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.350063,
+        "lon": -71.06543,
+        "wikidata": "Q130412352",
+        "label": "Bradford Ballroom",
+        "streetAddress": "",
+        "dissolutionYear": "1983",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.36454,
+        "lon": -71.10415,
+        "wikidata": "Q130413010",
+        "label": "Green Street",
+        "streetAddress": "280 Green Street, Cambridge, MA 02139",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.363433811,
+        "lon": -71.09775518,
+        "wikidata": "Q130445945",
+        "label": "The Club",
+        "streetAddress": "823 Main Street, Cambridge 02139",
+        "dissolutionYear": "1985",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.361825062,
+        "lon": -71.062173103,
+        "wikidata": "Q130446920",
+        "label": "Down Under",
+        "streetAddress": "15 New Chardon St, Boston, MA 02114",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.348412,
+        "lon": -71.073837,
+        "wikidata": "Q130454115",
+        "label": "Hard Rock Cafe Boston",
+        "streetAddress": "22-24 Clinton Street, Boston, MA, 02109",
+        "dissolutionYear": "2022",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.34848,
+        "lon": -71.08432,
+        "wikidata": "Q130454423",
+        "label": "Honey Lounge",
+        "streetAddress": "909 Boylston Street, Boston, MA 02115",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.372269,
+        "lon": -71.121132,
+        "wikidata": "Q130454600",
+        "label": "House of Blues",
+        "streetAddress": "96 Winthrop St, Cambridge, MA 02138",
+        "dissolutionYear": "2003",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.3736,
+        "lon": -71.10011,
+        "wikidata": "Q130454816",
+        "label": "Inn-Square Men&#39;s Bar",
+        "streetAddress": "1350 Cambridge Street, Cambridge MA 02139",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.36883,
+        "lon": -71.10996,
+        "wikidata": "Q130454924",
+        "label": "Jack&#39;s",
+        "streetAddress": "952 Massachusetts Ave, Cambridge, MA 02139",
+        "dissolutionYear": "1987",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.372734251,
+        "lon": -71.119668169,
+        "wikidata": "Q130455196",
+        "label": "Jonathan Swift&#39;s",
+        "streetAddress": "30 JFK Street, Cambridge MA 02138",
+        "dissolutionYear": "1986",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.34246,
+        "lon": -71.09948,
+        "wikidata": "Q130455228",
+        "label": "Linwood Grille &amp; Barbeque",
+        "streetAddress": "69 Kilmarnock Street, Boston, MA 02215",
+        "dissolutionYear": "2007",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.35627,
+        "lon": -71.14753,
+        "wikidata": "Q130455490",
+        "label": "Magic Room Gallery",
+        "streetAddress": "155 N Beacon Street, Boston, MA 02135",
+        "dissolutionYear": "2013",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.27486,
+        "lon": -70.86221,
+        "wikidata": "Q130458126",
+        "label": "Uncle Sam&#39;s",
+        "streetAddress": "296 Nantasket Ave, Hull, MA 02045",
+        "dissolutionYear": "1984",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.36873,
+        "lon": -71.07822,
+        "wikidata": "Q130458402",
+        "label": "Mark&#39;s Spring Street Pub",
+        "streetAddress": "5 Spring Street, Watertown MA 02141",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.35736,
+        "lon": -71.05201,
+        "wikidata": "Q130458425",
+        "label": "Maverick&#39;s",
+        "streetAddress": "112 Broad Street, Boston MA 02110",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.34739,
+        "lon": -71.09572,
+        "wikidata": "Q130458467",
+        "label": "Metro",
+        "streetAddress": "15 Lansdowne Street, Boston MA 02215",
+        "dissolutionYear": "1988",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.58373,
+        "lon": -71.28995,
+        "wikidata": "Q130458507",
+        "label": "Mr. Tipps",
+        "streetAddress": "37 Treble Cove Road, Billerica MA 01862",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.38072,
+        "lon": -71.09791,
+        "wikidata": "Q130458925",
+        "label": "Sally O&#39;Briens",
+        "streetAddress": "335 Somerville Ave. Somerville, MA  02143",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.38298,
+        "lon": -71.10616,
+        "wikidata": "Q130459335",
+        "label": "Skybar",
+        "streetAddress": "518 Somerville Ave, Somerville 02143",
+        "dissolutionYear": "2007",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.35689,
+        "lon": -71.05295,
+        "wikidata": "Q130459447",
+        "label": "The Space",
+        "streetAddress": "76 Batterymarch Street, Boston MA 02110",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.347650782,
+        "lon": -71.095233603,
+        "wikidata": "Q130459523",
+        "label": "Spit",
+        "streetAddress": "",
+        "dissolutionYear": "2007",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.34835,
+        "lon": -71.09793,
+        "wikidata": "Q130459838",
+        "label": "Storyville",
+        "streetAddress": "645 Beacon Street, Boston MA 02215",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.3505,
+        "lon": -71.13158,
+        "wikidata": "Q130460956",
+        "label": "Streets",
+        "streetAddress": "",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.38886,
+        "lon": -71.12001,
+        "wikidata": "Q130461388",
+        "label": "Toad",
+        "streetAddress": "1912 Massachusetts Ave, Cambridge, MA 02140",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.3738,
+        "lon": -71.10006,
+        "wikidata": "Q130506366",
+        "label": "Zeitgeist Gallery",
+        "streetAddress": "1353 Cambridge St Cambridge, MA 02139",
+        "dissolutionYear": "2006",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.84178,
+        "lon": -70.8166,
+        "wikidata": "Q130544022",
+        "label": "Uncle Eddie&#39;s Oceanside Tavern",
+        "streetAddress": "8 Ocean Front, South, Salisbury, Massachusetts 01952",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.389635468,
+        "lon": -71.1060708,
+        "wikidata": "Q130744718",
+        "label": "Arts at the Armory",
+        "streetAddress": "191 Highland Ave #1c, Somerville, MA 02143",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.101309891,
+        "lon": -70.771974545,
+        "wikidata": "Q130744770",
+        "label": "Soundcheck Studios",
+        "streetAddress": "150 Corporate Park Drive, Pembroke, MA 02359",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.405884002,
+        "lon": -71.142688618,
+        "wikidata": "Q130744782",
+        "label": "The 4th Wall",
+        "streetAddress": "204 Massachusetts Ave, Arlington, MA 02474",
+        "dissolutionYear": "",
+        "closureStatus": ""
     }
     
     ,{
@@ -1866,6 +2273,17 @@
         "wikidata": "Q3045309",
         "label": "Symphony Hall",
         "streetAddress": "301 Massachusetts Ave, Boston, MA 02115",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.090944444,
+        "lon": -71.264344444,
+        "wikidata": "Q373355",
+        "label": "Gillette Stadium",
+        "streetAddress": "1 Patriot Pl, Foxborough, MA 02035",
         "dissolutionYear": "",
         "closureStatus": ""
     }
