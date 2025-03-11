@@ -535,7 +535,7 @@
         "wikidata": "Q111823886",
         "label": "Old Vienna Kaffeehaus",
         "streetAddress": "22 South St, Westborough, MA 01581",
-        "dissolutionYear": "",
+        "dissolutionYear": "1996",
         "closureStatus": ""
     }
     
@@ -1933,7 +1933,7 @@
         "label": "Maverick&#39;s",
         "streetAddress": "112 Broad Street, Boston MA 02110",
         "dissolutionYear": "",
-        "closureStatus": ""
+        "closureStatus": "permanently closed"
     }
     
     ,{
@@ -1955,18 +1955,7 @@
         "label": "Mr. Tipps",
         "streetAddress": "37 Treble Cove Road, Billerica MA 01862",
         "dissolutionYear": "",
-        "closureStatus": ""
-    }
-    
-    ,{
-        
-        "lat": 42.38072,
-        "lon": -71.09791,
-        "wikidata": "Q130458925",
-        "label": "Sally O&#39;Briens",
-        "streetAddress": "335 Somerville Ave. Somerville, MA  02143",
-        "dissolutionYear": "",
-        "closureStatus": ""
+        "closureStatus": "permanently closed"
     }
     
     ,{
@@ -1988,7 +1977,7 @@
         "label": "The Space",
         "streetAddress": "76 Batterymarch Street, Boston MA 02110",
         "dissolutionYear": "",
-        "closureStatus": ""
+        "closureStatus": "permanently closed"
     }
     
     ,{
@@ -1997,7 +1986,7 @@
         "lon": -71.095233603,
         "wikidata": "Q130459523",
         "label": "Spit",
-        "streetAddress": "",
+        "streetAddress": "15 Lansdowne St, Boston, MA 02215",
         "dissolutionYear": "2007",
         "closureStatus": ""
     }
@@ -2010,7 +1999,7 @@
         "label": "Storyville",
         "streetAddress": "645 Beacon Street, Boston MA 02215",
         "dissolutionYear": "",
-        "closureStatus": ""
+        "closureStatus": "permanently closed"
     }
     
     ,{
@@ -2019,20 +2008,20 @@
         "lon": -71.13158,
         "wikidata": "Q130460956",
         "label": "Streets",
-        "streetAddress": "",
+        "streetAddress": "1239 Commonwealth Ave, Boston, MA 02134",
         "dissolutionYear": "",
-        "closureStatus": ""
+        "closureStatus": "permanently closed"
     }
     
     ,{
         
-        "lat": 42.38886,
-        "lon": -71.12001,
-        "wikidata": "Q130461388",
-        "label": "Toad",
-        "streetAddress": "1912 Massachusetts Ave, Cambridge, MA 02140",
+        "lat": 42.282269467,
+        "lon": -71.038598903,
+        "wikidata": "Q130506021",
+        "label": "The Outer Limits",
+        "streetAddress": "29 Hancock St, Quincy, MA 02171",
         "dissolutionYear": "",
-        "closureStatus": ""
+        "closureStatus": "permanently closed"
     }
     
     ,{
@@ -2086,6 +2075,105 @@
         "wikidata": "Q130744782",
         "label": "The 4th Wall",
         "streetAddress": "204 Massachusetts Ave, Arlington, MA 02474",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.512569461,
+        "lon": -71.424333129,
+        "wikidata": "Q131765601",
+        "label": "Acton Jazz Cafe",
+        "streetAddress": "452 Great Rd, Acton, MA 01720",
+        "dissolutionYear": "2012",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.522982504,
+        "lon": -71.432360341,
+        "wikidata": "Q131765616",
+        "label": "Acton Jazz Cafe",
+        "streetAddress": "103 Nagog Park, Acton, MA 01720",
+        "dissolutionYear": "2014",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.547240052,
+        "lon": -71.470856097,
+        "wikidata": "Q131765641",
+        "label": "Act III",
+        "streetAddress": "529 King St, Littleton, MA 01460",
+        "dissolutionYear": "2015",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.370760498,
+        "lon": -71.114457578,
+        "wikidata": "Q131766259",
+        "label": "Arrow Street Arts",
+        "streetAddress": "2 Arrow St, Cambridge, MA 02138",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.420410661,
+        "lon": -71.133641363,
+        "wikidata": "Q133260576",
+        "label": "Medford Brewing Company",
+        "streetAddress": "30 Harvard Ave, Medford, MA 02155",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.408601546,
+        "lon": -71.092915644,
+        "wikidata": "Q133260602",
+        "label": "The Ford Tavern",
+        "streetAddress": "61 Locust St, Medford, MA 02155",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.418358892,
+        "lon": -71.108545118,
+        "wikidata": "Q133260608",
+        "label": "Mrs. Murphy’s Pub",
+        "streetAddress": "25 Salem St, Medford, MA 02155",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.410114859,
+        "lon": -71.105435122,
+        "wikidata": "Q133260624",
+        "label": "The Great American Beer Hall",
+        "streetAddress": "142 Mystic Ave, Medford, MA 02155",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.409691386,
+        "lon": -71.10449326,
+        "wikidata": "Q133260671",
+        "label": "Arts Collaborative Medford",
+        "streetAddress": "162 Mystic Ave #1, Medford, MA 02155",
         "dissolutionYear": "",
         "closureStatus": ""
     }
@@ -2197,6 +2285,17 @@
         "label": "Izzy Ort&#39;s Bar &amp; Grille",
         "streetAddress": "",
         "dissolutionYear": "1969",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.6502,
+        "lon": -71.3132,
+        "wikidata": "Q2076478",
+        "label": "Tsongas Center",
+        "streetAddress": "",
+        "dissolutionYear": "",
         "closureStatus": ""
     }
     
@@ -2350,7 +2449,7 @@
         "wikidata": "Q4880183",
         "label": "Beethoven Hall",
         "streetAddress": "",
-        "dissolutionYear": "",
+        "dissolutionYear": "1990",
         "closureStatus": "permanently closed"
     }
     
@@ -2378,8 +2477,8 @@
     
     ,{
         
-        "lat": 42.3405,
-        "lon": -71.0896,
+        "lat": 42.340555555,
+        "lon": -71.089444444,
         "wikidata": "Q4948013",
         "label": "Boston Opera House",
         "streetAddress": "343 Huntington Avenue, Boston, MA 02115",
