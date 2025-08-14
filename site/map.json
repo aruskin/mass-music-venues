@@ -145,6 +145,17 @@
     
     ,{
         
+        "lat": 42.355277,
+        "lon": -71.132942,
+        "wikidata": "Q106930314",
+        "label": "Great Scott",
+        "streetAddress": "1222 Commonwealth Avenue, Allston, MA 02134",
+        "dissolutionYear": "2020",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
         "lat": 42.351000301,
         "lon": -71.131150857,
         "wikidata": "Q106930351",
@@ -415,7 +426,7 @@
         "label": "Gilrein&#39;s",
         "streetAddress": "802 Main St, Worcester, MA 01610",
         "dissolutionYear": "",
-        "closureStatus": ""
+        "closureStatus": "permanently closed"
     }
     
     ,{
@@ -1085,8 +1096,8 @@
         "wikidata": "Q115174010",
         "label": "Toad",
         "streetAddress": "1912 Massachusetts Ave, Cambridge, MA 02140",
-        "dissolutionYear": "2023",
-        "closureStatus": "permanently closed"
+        "dissolutionYear": "",
+        "closureStatus": ""
     }
     
     ,{
@@ -1916,8 +1927,8 @@
     
     ,{
         
-        "lat": 42.36873,
-        "lon": -71.07822,
+        "lat": 42.365726781,
+        "lon": -71.184421205,
         "wikidata": "Q130458402",
         "label": "Mark&#39;s Spring Street Pub",
         "streetAddress": "5 Spring Street, Watertown MA 02141",
@@ -2030,7 +2041,7 @@
         "lon": -71.10006,
         "wikidata": "Q130506366",
         "label": "Zeitgeist Gallery",
-        "streetAddress": "1353 Cambridge St Cambridge, MA 02139",
+        "streetAddress": "312 Broadway, Cambridge, MA 02139",
         "dissolutionYear": "2006",
         "closureStatus": ""
     }
@@ -2174,6 +2185,61 @@
         "wikidata": "Q133260671",
         "label": "Arts Collaborative Medford",
         "streetAddress": "162 Mystic Ave #1, Medford, MA 02155",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.611779754,
+        "lon": -71.233313674,
+        "wikidata": "Q133796467",
+        "label": "Bandstand",
+        "streetAddress": "",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.3890614,
+        "lon": -71.1199847,
+        "wikidata": "Q134718279",
+        "label": "McCarthy&#39;s",
+        "streetAddress": "1920 Massachusetts Ave, Cambridge, MA 02140",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.381972244,
+        "lon": -71.106244779,
+        "wikidata": "Q135797944",
+        "label": "Aeronaut Brewing Company",
+        "streetAddress": "14 Tyler St, Somerville, MA 02143",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.383014106,
+        "lon": -71.104372273,
+        "wikidata": "Q135798470",
+        "label": "Luthier Collective",
+        "streetAddress": "487 Somerville Ave, Somerville, MA 02143",
+        "dissolutionYear": "",
+        "closureStatus": ""
+    }
+    
+    ,{
+        
+        "lat": 42.373531955,
+        "lon": -71.120237082,
+        "wikidata": "Q135798547",
+        "label": "Lou&#39;s",
+        "streetAddress": "13 Brattle St, Cambridge, MA 02138",
         "dissolutionYear": "",
         "closureStatus": ""
     }
